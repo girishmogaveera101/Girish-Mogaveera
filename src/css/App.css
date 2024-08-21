@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #navBar {
     background-color: #0fa4af;
     position: fixed;
@@ -20,6 +24,7 @@ a:hover {
     font-style: normal;
     margin: 10px 10px;
 }
+
 #title:hover {
     color: #afdde5;
 }
@@ -137,7 +142,7 @@ a:hover {
     }
 }
 
-#text1{
+#text1 {
     color: #0fa4af;
     font-size: 30px;
     text-align: center;
@@ -178,7 +183,8 @@ a:hover {
     font-weight: bolder;
     margin-bottom: 30px;
 }
-#text4{
+
+#text4 {
     color: #94a5a8;
     font-size: 20px;
     letter-spacing: 10px;
@@ -186,26 +192,27 @@ a:hover {
     font-family: "Montserrat", sans-serif;
 }
 
-.iconbox{
+.iconbox {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 
 }
 
-.devicon{
+.devicon {
     height: 40px;
     margin: 0 5px;
 }
 
-#devicon{
+#devicon {
     font-size: 40px;
     margin: 0 5px;
     animation-duration: 0.5s;
     color: white;
 }
 
-#devicon:hover, .devicon:hover{
+#devicon:hover,
+.devicon:hover {
     transform: rotate(20deg);
 }
 
@@ -257,17 +264,17 @@ a:hover {
     font-size: 17px;
 }
 
-#devicon1{
+#devicon1 {
     font-size: 20px;
     color: white;
     margin: 0 15px;
 }
 
-#label1{
+#label1 {
     color: white;
 }
 
-#inp1{
+#inp1 {
     background-color: black;
     width: 300px;
     height: 50px;
@@ -276,7 +283,8 @@ a:hover {
     border: 1px solid #0fa4af;
     color: #afdde5;
 }
-#sendmail{
+
+#sendmail {
     background-color: #0fa4af;
     color: black;
     border: none;
@@ -286,7 +294,7 @@ a:hover {
     padding: 0% 10%;
 }
 
-.footer{
+.footer {
     width: 100%;
     margin-top: 30px;
     text-align: center;
@@ -294,14 +302,14 @@ a:hover {
     background-color: #004e53;
 }
 
-#footertext{
+#footertext {
     color: rgb(202, 202, 202);
     letter-spacing: 3px;
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
 }
 
-#devicon2{
+#devicon2 {
     font-size: 20px;
     color: rgb(202, 202, 202);
     margin: 0 5px;
