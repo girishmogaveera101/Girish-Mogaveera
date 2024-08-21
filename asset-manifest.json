@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/girishmogaveera101/static/css/main.63b3eb94.css",
+    "main.js": "/girishmogaveera101/static/js/main.3267f706.js",
+    "static/media/image3.png": "/girishmogaveera101/static/media/image3.f13ad3903df0828a4f92.png",
+    "static/media/image1.png": "/girishmogaveera101/static/media/image1.8da7b0639a89a507596c.png",
+    "index.html": "/girishmogaveera101/index.html",
+    "main.63b3eb94.css.map": "/girishmogaveera101/static/css/main.63b3eb94.css.map",
+    "main.3267f706.js.map": "/girishmogaveera101/static/js/main.3267f706.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63b3eb94.css",
+    "static/js/main.3267f706.js"
+  ]
+}
