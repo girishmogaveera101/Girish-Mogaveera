@@ -196,7 +196,7 @@ function App() {
             <div className="footer">
                 <i><p id='footertext'>"Code hard, nap hard."</p></i>
                 <div className="smallbox">
-                    <i id='devicon2' class="devicon-linkedin-plain colored"></i>
+                    <a href="https://www.linkedin.com/in/girish-mogaveera-852860275/"><i id='devicon2' class="devicon-linkedin-plain colored"></i></a>
                     <i id='devicon2' class="devicon-twitter-original"></i>
                     <i id='devicon2' class="devicon-github-original-wordmark"></i>
                 </div>
