@@ -147,9 +147,10 @@ function App() {
                     <p id='connect'>Let's join forces!</p>
                     <p id='text5'>I'm on the hunt for new adventures, so if you’ve got an opportunity or just want to say "hey," my inbox is wide open—like, pizza box open. Whether it’s business or banter, drop me a line, and I’ll do my best to reply faster than a cat video goes viral!</p>
                     <div className="iconbox">
-                        <i id='devicon1' class="devicon-linkedin-plain colored"></i>
-                        <i id='devicon1' class="devicon-twitter-original"></i>
-                        <i id='devicon1' class="devicon-github-original-wordmark"></i> </div>
+                        <a href='https://www.linkedin.com/in/girish-mogaveera-852860275/'><i id='devicon1' class="devicon-linkedin-plain colored"></i></a>
+                        <a href='https://x.com/girizzzh'><i id='devicon1' class="devicon-twitter-original"></i></a>
+                        <a href='https://github.com/girishmogaveera101'><i id='devicon1' class="devicon-github-original-wordmark"></i></a>
+                    </div>
 
                 </div>
                 <div className="item7">
@@ -181,7 +182,7 @@ function App() {
                         <thead>
                             <tr>
                                 <td>
-                                    <input id='sendmail' type='submit' value="submit" />
+                                    <input id='sendmail' type='submit' value="submit" disabled/>
                                 </td>
                             </tr>
                         </thead>
@@ -196,9 +197,9 @@ function App() {
             <div className="footer">
                 <i><p id='footertext'>"Code hard, nap hard."</p></i>
                 <div className="smallbox">
-                    <a href="https://www.linkedin.com/in/girish-mogaveera-852860275/"><i id='devicon2' class="devicon-linkedin-plain colored"></i></a>
-                    <i id='devicon2' class="devicon-twitter-original"></i>
-                    <i id='devicon2' class="devicon-github-original-wordmark"></i>
+                    <a href='https://www.linkedin.com/in/girish-mogaveera-852860275/'><i id='devicon2' class="devicon-linkedin-plain colored"></i></a>
+                    <a href='https://x.com/girizzzh'><i id='devicon2' class="devicon-twitter-original"></i></a>
+                    <a href='https://github.com/girishmogaveera101'><i id='devicon2' class="devicon-github-original-wordmark"></i></a>
                 </div>
             </div>
         </>
