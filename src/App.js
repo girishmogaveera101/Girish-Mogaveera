@@ -5,7 +5,6 @@ import image2 from './css/image3.png';
 import { TypeAnimation } from 'react-type-animation';
 import { useState, useEffect } from 'react';
 
-
 function App() {
 
     const [daysPassed, setDaysPassed] = useState(0);
@@ -154,20 +153,22 @@ function App() {
 
                 </div>
                 <div className="item7">
+                <form action="https://getform.io/f/bgdygona" method="POST">
+
                     <table id='mailto'>
                         <thead>
                             <tr>
                                 <td>
-                                    <p id='label1'>your email</p>
-                                    <input id='inp1' type='text' placeholder='123@gmail.com' />
+                                    <p id='label1'>Your email</p>
+                                    <input name='email' id='inp1' type='text' placeholder='123@gmail.com' />
                                 </td>
                             </tr>
                         </thead>
                         <thead>
                             <tr>
                                 <td>
-                                    <p id='label1'>Subject</p>
-                                    <input id='inp1' type='text' placeholder='Your Subject..' />
+                                    <p id='label1'>Your Name</p>
+                                    <input name='name' id='inp1' type='text' placeholder='Your Subject..' />
                                 </td>
                             </tr>
                         </thead>
@@ -175,18 +176,20 @@ function App() {
                             <tr>
                                 <td>
                                     <p id='label1'>Message</p>
-                                    <input id='inp1' type='text' placeholder='Message goes here...' />
+                                    <input name='message' id='inp1' type='text' placeholder='Message goes here...' />
                                 </td>
                             </tr>
                         </thead>
                         <thead>
                             <tr>
                                 <td>
-                                    <input id='sendmail' type='submit' value="submit" disabled/>
+                                    <input id='sendmail' type='submit' value="submit"/>
                                 </td>
                             </tr>
                         </thead>
+                       
                     </table>
+                    </form>
                 </div>
             </div>
 
