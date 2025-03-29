@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/App.css';
-import image1 from './css/image1.png';
+import image1 from './css/image.png';
 import image2 from './css/image3.png';
 import { TypeAnimation } from 'react-type-animation';
 import { useState, useEffect } from 'react';
