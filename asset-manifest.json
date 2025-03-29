@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Girish-Mogaveera/static/css/main.60a4e4eb.css",
+    "main.js": "/Girish-Mogaveera/static/js/main.536aba21.js",
+    "static/media/image.png": "/Girish-Mogaveera/static/media/image.9c6bdcab00a1238699af.png",
+    "static/media/image3.png": "/Girish-Mogaveera/static/media/image3.f13ad3903df0828a4f92.png",
+    "index.html": "/Girish-Mogaveera/index.html",
+    "main.60a4e4eb.css.map": "/Girish-Mogaveera/static/css/main.60a4e4eb.css.map",
+    "main.536aba21.js.map": "/Girish-Mogaveera/static/js/main.536aba21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60a4e4eb.css",
+    "static/js/main.536aba21.js"
+  ]
+}
