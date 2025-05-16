@@ -102,7 +102,7 @@ function App() {
                     <p id='text4'>
                         web-dev
                     </p>
-                    <div className="iconbox">
+                    <div className="iconbox2">
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
@@ -111,6 +111,8 @@ function App() {
                         <i id='devicon' class="devicon-express-original"></i>
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+                    </div>
+                    <div className="iconbox">
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
                         <i id='devicon' class="devicon-flask-original-wordmark"></i>
