@@ -106,10 +106,13 @@ function App() {
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" />
                         <i id='devicon' class="devicon-express-original"></i>
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
                         <i id='devicon' class="devicon-flask-original-wordmark"></i>
                     </div>
 
@@ -121,8 +124,22 @@ function App() {
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+
                     </div>
 
+
+                    <p id='text4'>
+                        Deployement
+                    </p>
+                    <div className="iconbox">
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg" />
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />
+                        <i id='devicon' class="devicon-vercel-original-wordmark"></i>
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/heroku/heroku-plain-wordmark.svg" />
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" />
+
+                    </div>
 
                     <p id='text4'>
                         tools
@@ -132,6 +149,7 @@ function App() {
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" />
+                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
                         <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
                     </div>
@@ -153,42 +171,42 @@ function App() {
 
                 </div>
                 <div className="item7">
-                <form action="https://getform.io/f/bgdygona" method="POST">
+                    <form action="https://getform.io/f/bgdygona" method="POST">
 
-                    <table id='mailto'>
-                        <thead>
-                            <tr>
-                                <td>
-                                    <p id='label1'>Your email</p>
-                                    <input name='email' id='inp1' type='text' placeholder='123@gmail.com' />
-                                </td>
-                            </tr>
-                        </thead>
-                        <thead>
-                            <tr>
-                                <td>
-                                    <p id='label1'>Your Name</p>
-                                    <input name='name' id='inp1' type='text' placeholder='Your Subject..' />
-                                </td>
-                            </tr>
-                        </thead>
-                        <thead>
-                            <tr>
-                                <td>
-                                    <p id='label1'>Message</p>
-                                    <input name='message' id='inp1' type='text' placeholder='Message goes here...' />
-                                </td>
-                            </tr>
-                        </thead>
-                        <thead>
-                            <tr>
-                                <td>
-                                    <input id='sendmail' type='submit' value="submit"/>
-                                </td>
-                            </tr>
-                        </thead>
-                       
-                    </table>
+                        <table id='mailto'>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        <p id='label1'>Your email</p>
+                                        <input name='email' id='inp1' type='text' placeholder='123@gmail.com' />
+                                    </td>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        <p id='label1'>Your Name</p>
+                                        <input name='name' id='inp1' type='text' placeholder='Your Name..' />
+                                    </td>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        <p id='label1'>Message</p>
+                                        <input name='message' id='inp1' type='text' placeholder='Message goes here...' />
+                                    </td>
+                                </tr>
+                            </thead>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        <input id='sendmail' type='submit' value="submit" />
+                                    </td>
+                                </tr>
+                            </thead>
+
+                        </table>
                     </form>
                 </div>
             </div>
