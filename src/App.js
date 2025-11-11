@@ -71,7 +71,7 @@ function App() {
                     <p id='heading4'>I'm a <b>{daysPassed}</b>   days old  code wrangler, tech tinkerer, and certified caffeine enthusiast. I spend my days turning <b>coffee into code</b> <br />and solving problems with a dash of creativity and a sprinkle of sheer stubbornness.</p>
                 </div>
                 <div className="item2">
-                    <img id='image1' src={image1} />
+                    <img id='image1' alt='' src={image1} />
                 </div>
             </div>
 
@@ -79,7 +79,7 @@ function App() {
             {/* about me  */}
             <div className='container2'>
                 <div className='item3'>
-                    <img id='image2' src={image2} />
+                    <img id='image2' alt='' src={image2} />
                 </div>
                 <div className="item4">
                     <p id='text1'>About me</p>
@@ -103,18 +103,18 @@ function App() {
                         web-dev
                     </p>
                     <div className="iconbox2">
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" />
                         <i id='devicon' class="devicon-express-original"></i>
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
                     </div>
                     <div className="iconbox">
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
                         <i id='devicon' class="devicon-flask-original-wordmark"></i>
                     </div>
 
@@ -122,11 +122,11 @@ function App() {
                         languages
                     </p>
                     <div className="iconbox">
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
 
                     </div>
 
@@ -135,11 +135,11 @@ function App() {
                         Deployement
                     </p>
                     <div className="iconbox">
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />
                         <i id='devicon' class="devicon-vercel-original-wordmark"></i>
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/heroku/heroku-plain-wordmark.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/heroku/heroku-plain-wordmark.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg" />
 
                     </div>
 
@@ -148,12 +148,12 @@ function App() {
                     </p>
                     <div className="iconbox">
                         <i id='devicon' class="devicon-github-original-wordmark"></i>
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
-                        <img className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+                        <img alt="" className='devicon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
                     </div>
                 </div>
             </div>
